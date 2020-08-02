@@ -1,0 +1,60 @@
+
+
+ 
+body {
+    /* border: solid gold; */
+    text-align: center;
+    padding: 100px 0 0 0;
+    color: #fff;
+    background: hsl(0, 3%, 13%);
+}
+
+#loading {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(0deg);
+    }
+}
+h1 {
+
+    /* border: solid gold; */
+    margin: 0;
+    color:rgb(248, 8, 8);
+    font-size:  100px;
+    font-family: 'Lakki Reddy', cursive;
+}
+h2 {
+    font-size: 35px;
+}
+div {
+    border: solid blue;
+}
+.instructions {
+    color:rgb(248, 8, 8);
+}
+.start-game {
+    color:rgb(248, 8, 8);
+}
+.exit-game {
+    color:rgb(248, 8, 8);
+}
+ul {
+     /* border: solid gold;  */
+    color:rgb(248, 8, 8);
+    list-style: none;
+    font-size: 30px;
+    padding-bottom: 80px;
+}
+footer  {
+    /* border: solid green; */
+    padding-top: 70px;
+     width: 500px;
+    display: inline-block;
+    justify-content: center; 
+} 

@@ -1,0 +1,23 @@
+/* this start_style.css page on links to the start_game html */
+
+
+.game {
+    border: solid gold;
+    display: flex;
+    flex-wrap: wrap;
+    height: 720px;
+    width: 720px;
+}
+.game div {
+    height: 80px;
+    width: 80px;
+}
+.end {
+    background-color: rgb(248, 8, 8);
+}
+.start {
+        background-color: rgb(0, 0, 255);
+}
+.frogger{
+    background-color: rgb(150, 248, 2);
+}
