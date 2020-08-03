@@ -2,7 +2,6 @@
 
  
 body {
-    /* border: solid gold; */
     text-align: center;
     padding: 100px 0 0 0;
     color: #fff;
@@ -18,23 +17,21 @@ body {
             -webkit-transform: rotate(0deg);
     }
     to {
-            -webkit-transform: rotate(0deg);
+            -webkit-transform: rotate(360deg);
     }
 }
 h1 {
-
-    /* border: solid gold; */
     margin: 0;
     color:rgb(248, 8, 8);
     font-size:  100px;
     font-family: 'Lakki Reddy', cursive;
 }
 h2 {
+    color:rgb(248, 8, 8);
     font-size: 35px;
 }
-div {
-    border: solid blue;
-}
+
+
 .instructions {
     color:rgb(248, 8, 8);
 }
@@ -45,14 +42,12 @@ div {
     color:rgb(248, 8, 8);
 }
 ul {
-     /* border: solid gold;  */
     color:rgb(248, 8, 8);
     list-style: none;
     font-size: 30px;
     padding-bottom: 80px;
 }
 footer  {
-    /* border: solid green; */
     padding-top: 70px;
      width: 500px;
     display: inline-block;
